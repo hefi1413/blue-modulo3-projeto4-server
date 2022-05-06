@@ -20,7 +20,7 @@ var paletasController = {
       }, 5000);
 
       //res.send({ paletas: _paletas, message: message });
-      res.statu(s200).send(paletas);
+      res.status(200).send(paletas);
     } catch (err) {
       console.log(`Erro! ${err}`);
       res.status(500).send({ message: 'Não foi possível exibir os dados.' });
