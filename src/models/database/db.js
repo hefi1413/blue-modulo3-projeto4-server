@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 //  DEFINIE CONEXÃO  COM BANCO DE DADOS
 mongoose
-  .connect(process.env.DB_HOST)
+  .connect('mongodb+srv://hefi1413:teste123@cluster0.lkete.mongodb.net/elgeladon')
   .then(() => console.log('MongoDB Atlas Conectado!'))
   .catch((error) => console.log(`Erro ao conectar com o MongoDB, erro: ${error}`));
 mongoose.Promisse = global.Promisse;
