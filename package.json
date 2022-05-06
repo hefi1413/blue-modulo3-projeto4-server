@@ -1,5 +1,5 @@
 {
-  "name": "blue-modulo3-projeto3-server",
+  "name": "blue-modulo3-projeto4-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hefi1413/blue-modulo3-projeto3-server.git"
+    "url": "git+https://github.com/hefi1413/blue-modulo3-projeto4-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hefi1413/blue-modulo3-projeto3-server.git/issues"
+    "url": "https://github.com/hefi1413/blue-modulo3-projeto4-server.git/issues"
   },
-  "homepage": "https://github.com/hefi1413/blue-modulo3-projeto3-server.git#readme",
+  "homepage": "https://github.com/hefi1413/blue-modulo3-projeto4-server.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",

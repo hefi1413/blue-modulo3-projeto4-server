@@ -27,5 +27,5 @@ app.use('/home', homeRouter);
 //
 // servidor da app
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor rodando em: ${port}`);
 });
